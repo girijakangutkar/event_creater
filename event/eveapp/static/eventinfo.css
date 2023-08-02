@@ -1,0 +1,74 @@
+body{
+    color:rgb(215, 192, 237);
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    margin-left: 30%;
+    float: left;  
+    
+}
+
+p{
+    margin-left:2em;
+    padding-left:2em;
+}
+.col{
+    margin: 0.1em;
+    text-align: left;
+    padding-top: 2em;
+    margin-top: 300;
+    border-radius:25px;
+    line-height: 1;
+    margin-right: 4em;
+    margin-left:2em;
+    padding-left:2em;
+    
+}
+
+.card{
+    margin-top: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius:25px;
+    padding-bottom:12px;
+}
+
+.opt{
+    opacity: 70%;
+}
+
+#like{
+    margin-left: 9px;
+    width:150px;
+    height:130px;
+    align-items: right;
+}
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background: url("https://cssanimation.rocks/images/posts/steps/heart.png") no-repeat;
+    background-position: 30 30;
+    cursor: pointer;
+    transition: background-position 1s steps(28);
+    transition-duration: 0s;
+    
+    &.is-active {
+      transition-duration: 1s;
+      background-position: -2800px 0;
+    }
+  }
+  
+  body {
+    background: #000000;
+  }
+  
+  .placement {
+    left: 600px;
+    transform: translate(-50%, -50%);
+    padding-top:2em;
+  }
+
+

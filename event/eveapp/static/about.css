@@ -1,0 +1,17 @@
+
+h3{
+    text-align: left;
+    padding-top: 1em;
+    font-weight: bold;
+    margin-left: 0.9em;
+    color: blueviolet;
+}
+
+p{
+    margin-left: 3em;
+}
+
+.card{
+    margin-top: 20px;
+    padding: 2em;
+}
